@@ -20,7 +20,7 @@ function Selector({ size = [], variation = [], setSelectedColor, setSelectedSize
   // ];
 
   return (
-    <div className="flex mt-32 flex-col gap-4">
+    <div className="flex mt-24 flex-col gap-4">
       <div>
         <label className="text-lg font-medium">Choose Size:</label>
         <div className="flex gap-2 mt-2">
@@ -36,7 +36,7 @@ function Selector({ size = [], variation = [], setSelectedColor, setSelectedSize
         </div>
       </div>
 
-      {/* <div>
+      <div>
         <label className="text-lg font-medium">Variation:</label>
         <div className="flex gap-2 mt-2">
           {variation.map((variation) => (
@@ -49,9 +49,9 @@ function Selector({ size = [], variation = [], setSelectedColor, setSelectedSize
             </button>
           ))}
         </div>
-      </div> */}
+      </div>
 
-      <div>
+      {/* <div>
         <label className="text-lg font-medium">Pilih Warna:</label>
         <div className="flex gap-2 mt-2">
           {colors.map((color) => (
@@ -63,7 +63,7 @@ function Selector({ size = [], variation = [], setSelectedColor, setSelectedSize
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

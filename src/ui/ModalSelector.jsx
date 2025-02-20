@@ -51,7 +51,7 @@ function ModalSelect({ size = [], variation = [], setSelectedColor, setSelectedS
         </div>
       </div> */}
 
-      <div>
+      {/* <div>
         <label className="text-lg font-medium">Pilih Warna:</label>
         <div className="flex gap-2 mt-2">
           {colors.map((color) => (
@@ -63,7 +63,7 @@ function ModalSelect({ size = [], variation = [], setSelectedColor, setSelectedS
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
