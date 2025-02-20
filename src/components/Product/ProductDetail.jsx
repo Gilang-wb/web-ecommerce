@@ -23,7 +23,7 @@ function ProductDetail() {
     const { addToCart } = useAddToCart()
 
     function handleAddToCart() {
-        if (!selectedSize || !selectedColor) {
+        if (!selectedSize) {
             alert("pilih size dan warna terlebih dahulu")
             return
         }

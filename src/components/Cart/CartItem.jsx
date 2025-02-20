@@ -76,7 +76,7 @@ function CartItem() {
                         <img src={item.product.image_url[0]} width='90' />
                         <div>
                             <h1 className="text-xl font-semibold">{item.product.name}</h1>
-                            <p>{item.color} | {item.size}</p>
+                            <p>{item.size}</p>
                         </div>
                     </div>
                     <h1>${item.product.price}</h1>
@@ -86,7 +86,7 @@ function CartItem() {
             ))}
             <div className=''>
                 <div className='fixed bottom-0 left-1/2 transform -translate-x-1/2 p-5 rounded-xl bg-white w-[80%]'>
-                    <h1 className='text-xl font-bold mb-5'>Ringkasan Belanja</h1>
+                    <h1 className='text-xl font-bold mb-5'>Shopping Summary</h1>
                     <div className='flex justify-between mx-6'>
                         <p className='text-stone-500 text-lg'>Total</p>
                         <h1 className='text-2xl font-semibold'>{totalPrice() === 0 ? "-" : `$${totalPrice()}`}</h1>

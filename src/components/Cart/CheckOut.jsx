@@ -49,7 +49,7 @@ function CheckOut() {
                 ))}
             </div>
             <div className='p-10 rounded-xl bg-white w-[25%] h-[30%] mt-28'>
-                <h1 className='text-xl font-bold mb-5'>Ringkasan Belanja</h1>
+                <h1 className='text-xl font-bold mb-5'>Shopping Summary</h1>
                 <div className='flex justify-between'>
                     <p className='text-stone-500 text-lg'>Barang</p>
                     <h1 className='font-semibold'>{totalQuantity()}</h1>
